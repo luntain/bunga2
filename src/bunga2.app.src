@@ -1,0 +1,9 @@
+%% -*- erlang -*-
+{application, bunga2,
+ [{description, "bunga2"},
+  {vsn, "0.1"},
+  {modules, []},
+  {registered, []},
+  {mod, {'bunga2_app', []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}]}.
